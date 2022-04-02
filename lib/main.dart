@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_simple_shopify/flutter_simple_shopify.dart';
 
 void main() {
+  ShopifyConfig.setConfig(
+      '0454ce0a269736e04dfc3f87dc402bba', // Storefront API access token.
+      'frozen-brothers-online.myshopify.com', // Store url.
+      '2022-01'); //
   runApp(const MyApp());
 }
 
